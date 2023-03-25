@@ -1,0 +1,151 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    text-align: left;
+    background-color: #EEEEEE;
+}
+.navbar-custom {
+    background-color: #00ADB5;
+}
+.navbar-brand {
+    font-size: 1.75rem;
+}
+.nav-item {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+.title-div {
+    padding: 20% 10% 25%;
+    text-align: left;
+}
+
+h1 {
+    color: #222831;
+    font-size: 6rem;
+}
+h2 {
+    font-size: 2.5rem;
+    color: #636D7D;
+    line-height: 2.5rem;
+    font-family: 'Ubuntu', sans-serif;
+    padding: 0 2.5% 2.5% 0;
+}
+.btn-custom {
+    background-color: #00ADB5;
+}
+.btn {
+    margin-right: 1%;
+}
+
+.class-link {
+    font-size: 1rem;
+    font-family: 'Fira Code', monospace;
+}
+
+
+@media (max-width: 800px) {
+    h1 {
+        font-size: 4rem;
+    }
+    h2 {
+        font-size: 1.5rem;
+    }
+    .class-link {
+        margin-bottom: 10%;
+    }
+    .title-div {
+        padding-bottom: 10%;
+    }
+}
+@media (max-width: 584px) {
+    .class-link{
+        margin:0 25% 5% 0;
+    }
+}
+
+
+/* Projects */
+.skills-div {
+    background-color: #00ADB5;
+    text-align: center;
+    padding-bottom: 2.5%;
+}
+
+
+
+#cards {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-bottom: 7.5%;
+
+}
+.card {
+    background-color: #EEEEEE;
+    height: 350px;
+    width: 650px;
+}
+
+h3 {
+    padding: 2.5% 0 2.5%;
+    color: #222831;
+    font-size: 3rem;
+    text-align: center;
+}
+
+h4 {
+    padding: 7.5% 0% 2.5%;
+    color: #222831;
+    font-size: 1.75rem;
+    font-family: 'Fira Code', monospace;
+}
+p {
+    color: #222831;
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+    font-family: 'Ubuntu', sans-serif;
+    padding: 2% 7% 10%;
+}
+
+
+
+/* Description */
+.description-div {
+    background-color: #EEEEEE;
+    text-align: center;
+}
+
+.portrait-photo {
+    padding-top: 5%;
+}
+
+.about-me  {
+    padding: 2%;
+}
+.about-me-descr {
+    padding: 0 20% 7.5%;
+    color: #636D7D;
+    font-size: 1.25rem;
+    line-height: 1.70rem;
+    font-family: 'Ubuntu', sans-serif;
+    
+}
+
+/* Contact Me */
+.contact-me-div {
+    font-family: 'Ubuntu', sans-serif;
+    padding: 2.5% 10%;
+}
+
+.form-label {
+    padding: 5% 0 2%;
+}
+.form-control {
+    margin: 0;
+
+}
+.button-contact {
+    margin: 2.5%;
+    text-align: center;
+}
